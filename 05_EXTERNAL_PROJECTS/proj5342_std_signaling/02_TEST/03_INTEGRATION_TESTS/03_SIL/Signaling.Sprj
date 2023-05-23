@@ -1,0 +1,300 @@
+{
+  "Tools": {},
+  "codeFiles": {
+    "FilesPaths": []
+  },
+  "simulationConfigurations": {
+    "milSimulationModeConfigurations": {
+      "MilRate": 0,
+      "SubsystemMIL": false
+    },
+    "silSimulationModeConfigurations": {
+      "TrigeringType": 2,
+      "SILBlockGenLevel": true,
+      "IsSelectRootLevelSubSystemActive": false,
+      "CreateSILBlock_Enable": false,
+      "EnableDisableCreateSILBlockCheckBox": true,
+      "IsPlantModel": false,
+      "isPlantModelEnabled": true
+    },
+    "pilSimulationModeConfigurations": {
+      "PilRate": 0
+    }
+  },
+  "reportConfigurations": {
+    "ReportType": 0,
+    "GenerateB2B": false,
+    "GenerateGlobalAssessment": false,
+    "GenerateTestQualification": true,
+    "GenerateReferenceComparison": true,
+    "GenerateTargetComparison": false,
+    "CoverageReport": 0,
+    "GenerateTestCaseSummary": false,
+    "GenerateInputGraph": true,
+    "GeneratePassedSignalsGraph": true,
+    "GenerateFailedSignalsGraph": true,
+    "GenerateCustomGraph": false,
+    "GenerateCompressedReport": false,
+    "GenerateGEEDsHTML": true,
+    "GenerateGEEDsExcel": false,
+    "SelectAllCodeFiles": false,
+    "SelectAllReferenceModelsForCoverage": true,
+    "GenerateCoverageJustification": false,
+    "CoverageMCDC": true,
+    "CoverageCondition": true,
+    "CoverageDecision": true,
+    "GenerateNonSampledSignals": true,
+    "AdditionalReportInfo": []
+  },
+  "testScripts_and_Calibrations": {
+    "TestScripts": [
+      {
+        "ScriptPath": "..\\..\\01_TEST_CASES\\Std_Signaling_TestCases.xlsx",
+        "ExecutionReportPath": null,
+        "ComparisonReportPath_Reference": "C:\\E\\WS\\proj5342_std_signaling\\02_TEST\\03_INTEGRATION_TESTS\\03_SIL\\Sentinel Output\\Report\\Comparison\\Reference_Model\\SIL_EC\\Comparison Report.html",
+        "ComparisonReportPath_Target": "",
+        "TestSheets": [
+          {
+            "Name": "ID1",
+            "TestCases": [
+              {
+                "Reference_Comparison_Status": 2,
+                "Target_Comparison_Status": 0,
+                "B2B_Status": 0,
+                "Name": "ID1",
+                "ReferenceJustification": null,
+                "ReferenceSignalJustifications": null,
+                "TargetJustification": null,
+                "TargetSignalJustifications": null,
+                "B2BJustification": null,
+                "B2BSignalJustifications": null,
+                "Status": 2,
+                "ExecutionReportPath": null,
+                "ComparisonReportPath_Reference": "C:\\E\\WS\\proj5342_std_signaling\\02_TEST\\03_INTEGRATION_TESTS\\03_SIL\\Sentinel Output\\Report\\Comparison\\Reference_Model\\SIL_EC\\Std_Signaling_TestCases\\ID1.html",
+                "ComparisonReportPath_Target": "Std_Signaling_TestCases\\ID1.html",
+                "BackToBackReportPath": "C:\\E\\WS\\proj5342_std_signaling\\02_TEST\\03_INTEGRATION_TESTS\\03_SIL\\Sentinel Output\\Report\\B2B\\Std_Signaling_TestCases\\ID1.html",
+                "ToBeSimulated": true,
+                "IsSimulated": false,
+                "ToHaveReport": true
+              }
+            ],
+            "GlobalAssessments": null
+          },
+          {
+            "Name": "ID2",
+            "TestCases": [
+              {
+                "Reference_Comparison_Status": 2,
+                "Target_Comparison_Status": 0,
+                "B2B_Status": 0,
+                "Name": "ID2",
+                "ReferenceJustification": null,
+                "ReferenceSignalJustifications": null,
+                "TargetJustification": null,
+                "TargetSignalJustifications": null,
+                "B2BJustification": null,
+                "B2BSignalJustifications": null,
+                "Status": 2,
+                "ExecutionReportPath": null,
+                "ComparisonReportPath_Reference": "C:\\E\\WS\\proj5342_std_signaling\\02_TEST\\03_INTEGRATION_TESTS\\03_SIL\\Sentinel Output\\Report\\Comparison\\Reference_Model\\SIL_EC\\Std_Signaling_TestCases\\ID2.html",
+                "ComparisonReportPath_Target": "Std_Signaling_TestCases\\ID2.html",
+                "BackToBackReportPath": "C:\\E\\WS\\proj5342_std_signaling\\02_TEST\\03_INTEGRATION_TESTS\\03_SIL\\Sentinel Output\\Report\\B2B\\Std_Signaling_TestCases\\ID2.html",
+                "ToBeSimulated": true,
+                "IsSimulated": false,
+                "ToHaveReport": true
+              }
+            ],
+            "GlobalAssessments": null
+          },
+          {
+            "Name": "ID3",
+            "TestCases": [
+              {
+                "Reference_Comparison_Status": 2,
+                "Target_Comparison_Status": 0,
+                "B2B_Status": 0,
+                "Name": "ID3",
+                "ReferenceJustification": null,
+                "ReferenceSignalJustifications": null,
+                "TargetJustification": null,
+                "TargetSignalJustifications": null,
+                "B2BJustification": null,
+                "B2BSignalJustifications": null,
+                "Status": 2,
+                "ExecutionReportPath": null,
+                "ComparisonReportPath_Reference": "C:\\E\\WS\\proj5342_std_signaling\\02_TEST\\03_INTEGRATION_TESTS\\03_SIL\\Sentinel Output\\Report\\Comparison\\Reference_Model\\SIL_EC\\Std_Signaling_TestCases\\ID3.html",
+                "ComparisonReportPath_Target": "Std_Signaling_TestCases\\ID3.html",
+                "BackToBackReportPath": "C:\\E\\WS\\proj5342_std_signaling\\02_TEST\\03_INTEGRATION_TESTS\\03_SIL\\Sentinel Output\\Report\\B2B\\Std_Signaling_TestCases\\ID3.html",
+                "ToBeSimulated": true,
+                "IsSimulated": false,
+                "ToHaveReport": true
+              }
+            ],
+            "GlobalAssessments": null
+          },
+          {
+            "Name": "ID4",
+            "TestCases": [
+              {
+                "Reference_Comparison_Status": 2,
+                "Target_Comparison_Status": 0,
+                "B2B_Status": 0,
+                "Name": "ID4",
+                "ReferenceJustification": null,
+                "ReferenceSignalJustifications": null,
+                "TargetJustification": null,
+                "TargetSignalJustifications": null,
+                "B2BJustification": null,
+                "B2BSignalJustifications": null,
+                "Status": 2,
+                "ExecutionReportPath": null,
+                "ComparisonReportPath_Reference": "C:\\E\\WS\\proj5342_std_signaling\\02_TEST\\03_INTEGRATION_TESTS\\03_SIL\\Sentinel Output\\Report\\Comparison\\Reference_Model\\SIL_EC\\Std_Signaling_TestCases\\ID4.html",
+                "ComparisonReportPath_Target": "Std_Signaling_TestCases\\ID4.html",
+                "BackToBackReportPath": "C:\\E\\WS\\proj5342_std_signaling\\02_TEST\\03_INTEGRATION_TESTS\\03_SIL\\Sentinel Output\\Report\\B2B\\Std_Signaling_TestCases\\ID4.html",
+                "ToBeSimulated": true,
+                "IsSimulated": false,
+                "ToHaveReport": true
+              }
+            ],
+            "GlobalAssessments": null
+          }
+        ],
+        "BackToBackReportPath": "C:\\E\\WS\\proj5342_std_signaling\\02_TEST\\03_INTEGRATION_TESTS\\03_SIL\\Sentinel Output\\Report\\B2B\\B2B Report.html",
+        "ScriptType": 1,
+        "CalibrationName": null
+      }
+    ],
+    "Calibrations": [],
+    "DefaultCalibrationName": "",
+    "AutoPrepareGEEDS_TS": false
+  },
+  "projectConfigurations": {
+    "ProjectName": "Signaling",
+    "ProjectPath": "C:\\E\\WS\\proj5342_std_signaling\\02_TEST\\03_INTEGRATION_TESTS\\03_SIL\\Signaling.Sprj"
+  },
+  "SimulationCurrentState": 3,
+  "signalsInfo": {
+    "OutputSignals": [
+      {
+        "Name": "V_DrlPlFunctionTpsPwm",
+        "ToBeReported": true,
+        "ValTolerance": -1.0,
+        "TimeTolerance": -1.0
+      },
+      {
+        "Name": "V_TiFunctionTpsPwm(1)",
+        "ToBeReported": true,
+        "ValTolerance": -1.0,
+        "TimeTolerance": -1.0
+      },
+      {
+        "Name": "V_TiFunctionTpsPwm(2)",
+        "ToBeReported": true,
+        "ValTolerance": -1.0,
+        "TimeTolerance": -1.0
+      },
+      {
+        "Name": "V_TiFunctionTpsPwm(3)",
+        "ToBeReported": true,
+        "ValTolerance": -1.0,
+        "TimeTolerance": -1.0
+      },
+      {
+        "Name": "V_TiFunctionTpsPwm(4)",
+        "ToBeReported": true,
+        "ValTolerance": -1.0,
+        "TimeTolerance": -1.0
+      },
+      {
+        "Name": "V_TiFunctionTpsPwm(5)",
+        "ToBeReported": true,
+        "ValTolerance": -1.0,
+        "TimeTolerance": -1.0
+      },
+      {
+        "Name": "V_PL_OUT",
+        "ToBeReported": true,
+        "ValTolerance": -1.0,
+        "TimeTolerance": -1.0
+      },
+      {
+        "Name": "V_DRL_OUT",
+        "ToBeReported": true,
+        "ValTolerance": -1.0,
+        "TimeTolerance": -1.0
+      },
+      {
+        "Name": "V_TI_OUT",
+        "ToBeReported": true,
+        "ValTolerance": -1.0,
+        "TimeTolerance": -1.0
+      },
+      {
+        "Name": "V_TiBlink",
+        "ToBeReported": true,
+        "ValTolerance": -1.0,
+        "TimeTolerance": -1.0
+      },
+      {
+        "Name": "V_SideMarker",
+        "ToBeReported": true,
+        "ValTolerance": -1.0,
+        "TimeTolerance": -1.0
+      }
+    ],
+    "InputSignals": [
+      "V_PL_Rqst",
+      "V_DRL_Rqst",
+      "V_TI_Rqst",
+      "V_ActivePowerSupply",
+      "V_TiCycle"
+    ]
+  },
+  "TestModels": {
+    "ReferenceModel": {
+      "ModelPath": "..\\..\\..\\..\\01_SRC\\03_MDL\\Signaling_Model_Run.slx",
+      "DataDictionaryPath": "..\\..\\..\\..\\01_SRC\\01_SLDD\\Signaling_Sldd.sldd",
+      "CoveragePath": "C:\\E\\WS\\proj5342_std_signaling\\02_TEST\\03_INTEGRATION_TESTS\\03_SIL\\Sentinel Output\\Report\\Coverage\\Reference_Model\\slcov_output\\_CoverageResults.html",
+      "SimulationMode": 1,
+      "RTRTFolderPath": "",
+      "IsRtRtProject": false,
+      "rtrtProjectBase": 0,
+      "vcFolderPath": "",
+      "vcCompiler": 0,
+      "cCastFilePath": "",
+      "IsVcProject": false,
+      "vcProjectBase": 0,
+      "ModelType": 0,
+      "classType": 0
+    },
+    "TargetModel": {
+      "ModelPath": "",
+      "DataDictionaryPath": "",
+      "CoveragePath": "",
+      "SimulationMode": 3,
+      "RTRTFolderPath": "",
+      "IsRtRtProject": false,
+      "rtrtProjectBase": 0,
+      "vcFolderPath": "",
+      "vcCompiler": 0,
+      "cCastFilePath": "",
+      "IsVcProject": false,
+      "vcProjectBase": 0,
+      "ModelType": 0,
+      "classType": 1
+    }
+  },
+  "genericData": {
+    "AutPreparedGEEDS_TS": false,
+    "AssociatedOSModel": "",
+    "OutputPath": "..\\Sentinel Output",
+    "QuantizeExpectedResults": false,
+    "EnableMatlabWarnings": false,
+    "IgnoreIrrelevantSignals": true,
+    "SentinelPath": "C:\\E\\Programs\\MBSE\\Sentinel_8.3.0_beta_4",
+    "MathFunctionsPath": "",
+    "LocalAssessmentPath": "",
+    "GlobalAssessmentPath": ""
+  },
+  "TargetSameAsReference": false
+}

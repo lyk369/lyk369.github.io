@@ -1,0 +1,3 @@
+[submodule "05_EXTERNAL_PROJECTS/proj5342_transversal_utilities_git"]
+	path = 05_EXTERNAL_PROJECTS/proj5342_transversal_utilities_git
+	url = ssh://forge.vnet.valeo.com:29418/proj5342_transversal_utilities_git

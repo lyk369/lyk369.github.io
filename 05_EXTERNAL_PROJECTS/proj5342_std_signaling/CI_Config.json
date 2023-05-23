@@ -1,0 +1,13 @@
+{
+  "matlab_version": "R2020b",
+  "model_name": "Signaling_Model",
+  "sentinel_version": "8.3.0_Beta_4",
+  "stage1_compile_model": true,
+  "stage2_run_model_advisor": true,
+  "stage3_run_mil_sil": false,
+  "stage4_run_pil": false,
+  "stage5_generate_code":false,
+  "stage6_build_code": false,
+  "stage7_run_klocwork": false,
+  "stage8_prepare_delivery_package": false
+}

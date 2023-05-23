@@ -1,0 +1,9 @@
+# Ignore all files in this dir...
+/*
+/*/
+
+# ... except for this one.
+!.gitignore
+!/01_STATIC/
+!/02_UNIT_TESTS/
+!/03_INTEGRATION_TESTS/

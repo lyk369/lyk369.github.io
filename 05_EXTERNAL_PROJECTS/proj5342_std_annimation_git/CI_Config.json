@@ -1,0 +1,13 @@
+{
+  "matlab_version": "R2020b",
+  "model_name": "StdAnimation",
+  "sentinel_version": "8.3.0_beta_4",
+  "stage1_compile_model": true,
+  "stage2_run_model_advisor": true,
+  "stage3_run_mil_sil": true,
+  "stage4_run_pil": false,
+  "stage5_generate_code":true,
+  "stage6_build_code": true,
+  "stage7_run_klocwork": true,
+  "stage8_prepare_delivery_package": true
+}

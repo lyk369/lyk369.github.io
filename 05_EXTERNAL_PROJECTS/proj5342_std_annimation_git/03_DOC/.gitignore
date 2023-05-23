@@ -1,0 +1,11 @@
+# Ignore all files in this dir...
+/*
+/*/
+
+# ... except for this one.
+!.gitignore
+!/01_INPUT/
+!/02_REVIEW/
+!/03_TRACEBILITY/
+!/04_SMI/
+!/05_MDF/

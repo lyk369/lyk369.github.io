@@ -1,0 +1,40 @@
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+Stage 8 - Prepare Delivery Package:
+[Warning: './06_CODE_GEN/02_CODE/.' is a directory.  Use rmdir to delete directories.] 
+[> In PostBuildScript (line 27)] 
+[Warning: './06_CODE_GEN/02_CODE/..' is a directory.  Use rmdir to delete directories.] 
+[> In PostBuildScript (line 27)] 
+[Warning: './06_CODE_GEN/02_CODE/' is a directory.  Use rmdir to delete directories.] 
+[> In PostBuildScript (line 27)] 
+[Warning: './06_CODE_GEN/02_CODE/ANIM' is a directory.  Use rmdir to delete directories.] 
+[> In PostBuildScript (line 27)] 
+[Warning: './06_CODE_GEN/02_CODE/DBLOtherModules' is a directory.  Use rmdir to delete directories.] 
+[> In PostBuildScript (line 27)] 
+[Warning: './06_CODE_GEN/02_CODE/DBL_HB' is a directory.  Use rmdir to delete directories.] 
+[> In PostBuildScript (line 27)] 
+[Warning: './06_CODE_GEN/02_CODE/INSP' is a directory.  Use rmdir to delete directories.] 
+[> In PostBuildScript (line 27)] 
+[Warning: './06_CODE_GEN/02_CODE/OUTSP' is a directory.  Use rmdir to delete directories.] 
+[> In PostBuildScript (line 27)] 
+[Warning: './06_CODE_GEN/02_CODE/OtherDrivers_PWMC' is a directory.  Use rmdir to delete directories.] 
+[> In PostBuildScript (line 27)] 
+[Warning: './06_CODE_GEN/02_CODE/PWMC_ADB' is a directory.  Use rmdir to delete directories.] 
+[> In PostBuildScript (line 27)] 
+[Warning: './06_CODE_GEN/02_CODE/PWMC_GFHB' is a directory.  Use rmdir to delete directories.] 
+[> In PostBuildScript (line 27)] 
+[Warning: './06_CODE_GEN/02_CODE/SBL' is a directory.  Use rmdir to delete directories.] 
+[> In PostBuildScript (line 27)] 
+[Warning: './06_CODE_GEN/02_CODE/StdAnimation' is a directory.  Use rmdir to delete directories.] 
+[> In PostBuildScript (line 27)] 
+[Warning: './06_CODE_GEN/02_CODE/TUNM' is a directory.  Use rmdir to delete directories.] 
+[> In PostBuildScript (line 27)] 
+[Warning: './06_CODE_GEN/03_SHARED_UTILS/.' is a directory.  Use rmdir to delete directories.] 
+[> In PostBuildScript (line 66)] 
+[Warning: './06_CODE_GEN/03_SHARED_UTILS/..' is a directory.  Use rmdir to delete directories.] 
+[> In PostBuildScript (line 66)] 
+[Warning: './06_CODE_GEN/03_SHARED_UTILS/' is a directory.  Use rmdir to delete directories.] 
+[> In PostBuildScript (line 66)] 
+Succeeded

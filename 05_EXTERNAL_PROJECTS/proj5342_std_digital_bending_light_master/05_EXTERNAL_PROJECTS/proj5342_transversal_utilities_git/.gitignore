@@ -1,0 +1,3 @@
+# List of untracked files to ignore
+~$*
+git_repo_init.sh

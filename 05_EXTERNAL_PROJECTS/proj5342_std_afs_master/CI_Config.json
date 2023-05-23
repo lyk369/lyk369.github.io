@@ -1,0 +1,14 @@
+{
+  "matlab_version": "R2020b",
+  "model_name": "AFS_Master",
+  "sentinel_version": "8.0.0_Beta_4",
+  "mil_sil_script_name": "MIL_SIL_Script",
+  "stage1_compile_model": true,
+  "stage2_run_model_advisor": true,
+  "stage3_run_mil_sil": true,
+  "stage4_run_pil": false,
+  "stage5_generate_code":true,
+  "stage6_build_code": true,
+  "stage7_run_klocwork": true,
+  "stage8_prepare_delivery_package": true
+}

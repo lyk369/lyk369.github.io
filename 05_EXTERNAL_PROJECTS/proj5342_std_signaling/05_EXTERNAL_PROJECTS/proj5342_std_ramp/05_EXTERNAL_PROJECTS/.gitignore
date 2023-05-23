@@ -1,0 +1,8 @@
+# Ignore all files in this dir...
+*
+
+# ... except for
+!.gitignore
+!macrodefs.xml
+!build.xml
+

@@ -1,0 +1,3 @@
+[submodule "05_EXTERNAL_PROJECTS/proj5342_std_ramp"]
+	path = 05_EXTERNAL_PROJECTS/proj5342_std_ramp
+	url = ssh://forge.vnet.valeo.com:29418/proj5342_std_ramp

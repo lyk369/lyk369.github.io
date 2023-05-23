@@ -1,0 +1,279 @@
+{
+  "Tools": {},
+  "codeFiles": {
+    "FilesPaths": []
+  },
+  "simulationConfigurations": {
+    "milSimulationModeConfigurations": {
+      "MilRate": 0,
+      "SubsystemMIL": false
+    },
+    "silSimulationModeConfigurations": {
+      "TrigeringType": 2,
+      "SILBlockGenLevel": true,
+      "IsSelectRootLevelSubSystemActive": false,
+      "CreateSILBlock_Enable": false,
+      "EnableDisableCreateSILBlockCheckBox": true,
+      "IsPlantModel": false,
+      "isPlantModelEnabled": true
+    },
+    "pilSimulationModeConfigurations": {
+      "PilRate": 0
+    }
+  },
+  "reportConfigurations": {
+    "ReportType": 0,
+    "GenerateB2B": false,
+    "GenerateGlobalAssessment": false,
+    "GenerateTestQualification": false,
+    "GenerateReferenceComparison": true,
+    "GenerateTargetComparison": false,
+    "CoverageReport": 0,
+    "GenerateTestCaseSummary": false,
+    "GenerateInputGraph": true,
+    "GeneratePassedSignalsGraph": true,
+    "GenerateFailedSignalsGraph": true,
+    "GenerateCustomGraph": false,
+    "GenerateCompressedReport": false,
+    "GenerateGEEDsHTML": true,
+    "GenerateGEEDsExcel": false,
+    "SelectAllCodeFiles": false,
+    "SelectAllReferenceModelsForCoverage": true,
+    "GenerateCoverageJustification": false,
+    "CoverageMCDC": true,
+    "CoverageCondition": true,
+    "CoverageDecision": true,
+    "GenerateNonSampledSignals": true,
+    "AdditionalReportInfo": []
+  },
+  "testScripts_and_Calibrations": {
+    "TestScripts": [
+      {
+        "ScriptPath": "..\\..\\01_TEST_CASES\\AFS_Master_Test_Vectors.xlsx",
+        "ExecutionReportPath": null,
+        "ComparisonReportPath_Reference": "D:\\WS_Mohamed_Tarek\\proj5342_std_afs_master\\02_TEST\\02_UNIT_TESTS\\03_SIL\\Sentinel_Output\\Report\\Comparison\\Reference_Model\\MIL\\Comparison Report.html",
+        "ComparisonReportPath_Target": "",
+        "TestSheets": [
+          {
+            "Name": "Failure_State",
+            "TestCases": [
+              {
+                "Reference_Comparison_Status": 2,
+                "Target_Comparison_Status": 0,
+                "B2B_Status": 0,
+                "Name": "Failure_State",
+                "ReferenceJustification": null,
+                "ReferenceSignalJustifications": null,
+                "TargetJustification": null,
+                "TargetSignalJustifications": null,
+                "B2BJustification": null,
+                "B2BSignalJustifications": null,
+                "Status": 2,
+                "ExecutionReportPath": null,
+                "ComparisonReportPath_Reference": "D:\\WS_Mohamed_Tarek\\proj5342_std_afs_master\\02_TEST\\02_UNIT_TESTS\\03_SIL\\Sentinel_Output\\Report\\Comparison\\Reference_Model\\MIL\\AFS_Master_Test_Vectors\\Failure_State.html",
+                "ComparisonReportPath_Target": "AFS_Master_Test_Vectors\\Failure_State.html",
+                "BackToBackReportPath": "D:\\WS_Mohamed_Tarek\\proj5342_std_afs_master\\02_TEST\\02_UNIT_TESTS\\03_SIL\\Sentinel_Output\\Report\\B2B\\AFS_Master_Test_Vectors\\Failure_State.html",
+                "ToBeSimulated": true,
+                "IsSimulated": false,
+                "ToHaveReport": true
+              }
+            ],
+            "GlobalAssessments": null
+          },
+          {
+            "Name": "AFS_Calc",
+            "TestCases": [
+              {
+                "Reference_Comparison_Status": 2,
+                "Target_Comparison_Status": 0,
+                "B2B_Status": 0,
+                "Name": "AFS_Calc",
+                "ReferenceJustification": null,
+                "ReferenceSignalJustifications": null,
+                "TargetJustification": null,
+                "TargetSignalJustifications": null,
+                "B2BJustification": null,
+                "B2BSignalJustifications": null,
+                "Status": 2,
+                "ExecutionReportPath": null,
+                "ComparisonReportPath_Reference": "D:\\WS_Mohamed_Tarek\\proj5342_std_afs_master\\02_TEST\\02_UNIT_TESTS\\03_SIL\\Sentinel_Output\\Report\\Comparison\\Reference_Model\\MIL\\AFS_Master_Test_Vectors\\AFS_Calc.html",
+                "ComparisonReportPath_Target": "AFS_Master_Test_Vectors\\AFS_Calc.html",
+                "BackToBackReportPath": "D:\\WS_Mohamed_Tarek\\proj5342_std_afs_master\\02_TEST\\02_UNIT_TESTS\\03_SIL\\Sentinel_Output\\Report\\B2B\\AFS_Master_Test_Vectors\\AFS_Calc.html",
+                "ToBeSimulated": true,
+                "IsSimulated": false,
+                "ToHaveReport": true
+              }
+            ],
+            "GlobalAssessments": null
+          },
+          {
+            "Name": "Secondary_Modes",
+            "TestCases": [
+              {
+                "Reference_Comparison_Status": 2,
+                "Target_Comparison_Status": 0,
+                "B2B_Status": 0,
+                "Name": "Secondary_Modes",
+                "ReferenceJustification": null,
+                "ReferenceSignalJustifications": null,
+                "TargetJustification": null,
+                "TargetSignalJustifications": null,
+                "B2BJustification": null,
+                "B2BSignalJustifications": null,
+                "Status": 2,
+                "ExecutionReportPath": null,
+                "ComparisonReportPath_Reference": "D:\\WS_Mohamed_Tarek\\proj5342_std_afs_master\\02_TEST\\02_UNIT_TESTS\\03_SIL\\Sentinel_Output\\Report\\Comparison\\Reference_Model\\MIL\\AFS_Master_Test_Vectors\\Secondary_Modes.html",
+                "ComparisonReportPath_Target": "AFS_Master_Test_Vectors\\Secondary_Modes.html",
+                "BackToBackReportPath": "D:\\WS_Mohamed_Tarek\\proj5342_std_afs_master\\02_TEST\\02_UNIT_TESTS\\03_SIL\\Sentinel_Output\\Report\\B2B\\AFS_Master_Test_Vectors\\Secondary_Modes.html",
+                "ToBeSimulated": true,
+                "IsSimulated": false,
+                "ToHaveReport": true
+              }
+            ],
+            "GlobalAssessments": null
+          },
+          {
+            "Name": "Parking",
+            "TestCases": [
+              {
+                "Reference_Comparison_Status": 2,
+                "Target_Comparison_Status": 0,
+                "B2B_Status": 0,
+                "Name": "Parking",
+                "ReferenceJustification": null,
+                "ReferenceSignalJustifications": null,
+                "TargetJustification": null,
+                "TargetSignalJustifications": null,
+                "B2BJustification": null,
+                "B2BSignalJustifications": null,
+                "Status": 2,
+                "ExecutionReportPath": null,
+                "ComparisonReportPath_Reference": "D:\\WS_Mohamed_Tarek\\proj5342_std_afs_master\\02_TEST\\02_UNIT_TESTS\\03_SIL\\Sentinel_Output\\Report\\Comparison\\Reference_Model\\MIL\\AFS_Master_Test_Vectors\\Parking.html",
+                "ComparisonReportPath_Target": "AFS_Master_Test_Vectors\\Parking.html",
+                "BackToBackReportPath": "D:\\WS_Mohamed_Tarek\\proj5342_std_afs_master\\02_TEST\\02_UNIT_TESTS\\03_SIL\\Sentinel_Output\\Report\\B2B\\AFS_Master_Test_Vectors\\Parking.html",
+                "ToBeSimulated": true,
+                "IsSimulated": false,
+                "ToHaveReport": true
+              }
+            ],
+            "GlobalAssessments": null
+          },
+          {
+            "Name": "HB_HS_LS",
+            "TestCases": [
+              {
+                "Reference_Comparison_Status": 2,
+                "Target_Comparison_Status": 0,
+                "B2B_Status": 0,
+                "Name": "HB_HS_LS",
+                "ReferenceJustification": null,
+                "ReferenceSignalJustifications": null,
+                "TargetJustification": null,
+                "TargetSignalJustifications": null,
+                "B2BJustification": null,
+                "B2BSignalJustifications": null,
+                "Status": 2,
+                "ExecutionReportPath": null,
+                "ComparisonReportPath_Reference": "D:\\WS_Mohamed_Tarek\\proj5342_std_afs_master\\02_TEST\\02_UNIT_TESTS\\03_SIL\\Sentinel_Output\\Report\\Comparison\\Reference_Model\\MIL\\AFS_Master_Test_Vectors\\HB_HS_LS.html",
+                "ComparisonReportPath_Target": "AFS_Master_Test_Vectors\\HB_HS_LS.html",
+                "BackToBackReportPath": "D:\\WS_Mohamed_Tarek\\proj5342_std_afs_master\\02_TEST\\02_UNIT_TESTS\\03_SIL\\Sentinel_Output\\Report\\B2B\\AFS_Master_Test_Vectors\\HB_HS_LS.html",
+                "ToBeSimulated": true,
+                "IsSimulated": false,
+                "ToHaveReport": true
+              }
+            ],
+            "GlobalAssessments": null
+          }
+        ],
+        "BackToBackReportPath": "D:\\WS_Mohamed_Tarek\\proj5342_std_afs_master\\02_TEST\\02_UNIT_TESTS\\03_SIL\\Sentinel_Output\\Report\\B2B\\B2B Report.html",
+        "ScriptType": 1,
+        "CalibrationName": null
+      }
+    ],
+    "Calibrations": [],
+    "DefaultCalibrationName": "",
+    "AutoPrepareGEEDS_TS": false
+  },
+  "projectConfigurations": {
+    "ProjectName": "AFS_SIL",
+    "ProjectPath": "D:\\WS_Mohamed_Tarek\\proj5342_std_afs_master\\02_TEST\\02_UNIT_TESTS\\03_SIL\\AFS_SIL.Sprj"
+  },
+  "SimulationCurrentState": 3,
+  "signalsInfo": {
+    "OutputSignals": [
+      {
+        "Name": "V_AfsMode",
+        "ToBeReported": true,
+        "ValTolerance": -1.0,
+        "TimeTolerance": -1.0
+      },
+      {
+        "Name": "V_AFS_Fail",
+        "ToBeReported": true,
+        "ValTolerance": -1.0,
+        "TimeTolerance": -1.0
+      }
+    ],
+    "InputSignals": [
+      "V_FiltVehSpeed",
+      "V_CAN_Fail",
+      "V_Veh_speed_Fail",
+      "V_Mod_LeftFail",
+      "V_Mod_RightFail",
+      "V_AFS_ActStatus",
+      "V_ForceExternalAfsMode",
+      "V_ExternalAfsMode",
+      "V_LbStatus",
+      "V_ActivateADBFeatures",
+      "V_WetDetection",
+      "V_TouristModeActivated",
+      "V_Foggy",
+      "V_RevGearEng",
+      "V_DayNightStatus",
+      "V_HBNoADBRequest"
+    ]
+  },
+  "TestModels": {
+    "ReferenceModel": {
+      "ModelPath": "..\\..\\..\\..\\01_SRC\\03_MDL\\AFS_Master_Runner.slx",
+      "DataDictionaryPath": "..\\..\\..\\..\\01_SRC\\01_SLDD\\AFS_Master_Model.sldd",
+      "CoveragePath": "D:\\WS_Mohamed_Tarek\\proj5342_std_afs_master\\02_TEST\\02_UNIT_TESTS\\03_SIL\\Sentinel_Output\\Report\\Coverage\\Reference_Model\\MIL\\AFS_Master_Runner_CoverageResults.html",
+      "SimulationMode": 0,
+      "RTRTFolderPath": "",
+      "IsRtRtProject": false,
+      "rtrtProjectBase": 0,
+      "vcFolderPath": "",
+      "IsVcProject": false,
+      "vcProjectBase": 0,
+      "ModelType": 0,
+      "classType": 0
+    },
+    "TargetModel": {
+      "ModelPath": "",
+      "DataDictionaryPath": "",
+      "CoveragePath": "",
+      "SimulationMode": 3,
+      "RTRTFolderPath": "",
+      "IsRtRtProject": false,
+      "rtrtProjectBase": 0,
+      "vcFolderPath": "",
+      "IsVcProject": false,
+      "vcProjectBase": 0,
+      "ModelType": 0,
+      "classType": 1
+    }
+  },
+  "genericData": {
+    "AutPreparedGEEDS_TS": false,
+    "AssociatedOSModel": "",
+    "OutputPath": "..\\Sentinel_Output",
+    "QuantizeExpectedResults": false,
+    "EnableMatlabWarnings": false,
+    "IgnoreIrrelevantSignals": true,
+    "SentinelPath": "D:\\WS_Mohamed_Tarek\\Sentinel",
+    "MathFunctionsPath": "",
+    "LocalAssessmentPath": "",
+    "GlobalAssessmentPath": ""
+  },
+  "TargetSameAsReference": false
+}
